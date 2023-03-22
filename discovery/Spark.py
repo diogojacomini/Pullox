@@ -32,4 +32,5 @@ class ExploratorySpark(Exploratory):
                          .orderBy('qty_missing', ascending=False)
 
         df_result = df_result.withColumn('pct (%)', (col('qty_missing') / len_dataset) * 100)
+        
         return df_result
