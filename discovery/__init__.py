@@ -1,3 +1,1 @@
-from discovery.Pandas import ExploratoryPandas
-from discovery import Exploratory
- 
+from discovery.exploratory import Exploratory

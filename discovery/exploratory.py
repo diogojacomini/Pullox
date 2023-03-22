@@ -1,8 +1,7 @@
-from discovery.Exploratory import Exploratory
 import pandas as pd
 
 
-class ExploratoryPandas(Exploratory):
+class Exploratory():
 
     def looking_missings(self, dataset):
         """Function to count the amount and percentage of missing values in the dataset per variable.
